@@ -1,0 +1,56 @@
+body {
+    
+    margin: 70px; /* Remove margens padrão do body */          
+    background-image: url('imagens/Fundo-comida-1280.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    color: rgb(255, 216, 179);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+    
+    .emoji { 
+        font-size: 80px;
+    }
+    .imagem-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 0px;
+       
+    }
+    .nomeapp {
+       font-size: 53px;
+        color: rgb(250, 137, 32);
+    }
+    .menus {
+        display: grid;
+        grid-area: span;
+        grid-template-columns: repeat(3, 1fr);
+        height: 100px;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .pagameto {
+        display: flex;
+        align-items: left;
+        justify-content: flex-start;
+    }
+    .pagamentos {
+        margin: 30px;
+        text-align: center;
+
+    }
+    .textoinicio {
+        font-size: 30px;
+        color: rgb(250, 137, 32);
+        margin:center;
+        text-align: center;
+    
+
+
+    
+    }
+}
